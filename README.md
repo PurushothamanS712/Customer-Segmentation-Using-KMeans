@@ -61,7 +61,7 @@ Customer-Segmentation-Using-KMeans/
 ├── dataset/
 │   └── Mall_Customers.csv
 ├── notebooks/
-│   └── Customer_Segmentation.ipynb   <- 60 cells (26 code), 9 steps
+│   └── Customer_Segmentation.ipynb
 ├── outputs/
 │   ├── 01_histograms.png
 │   ├── 02_boxplots.png
