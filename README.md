@@ -57,7 +57,7 @@ A shopping mall sends the same marketing message to every customer, which wastes
 ## Folder Structure
 
 ```text
-Customer_Segmentation/
+Customer-Segmentation-Using-KMeans/
 ├── dataset/
 │   └── Mall_Customers.csv
 ├── notebooks/
@@ -70,9 +70,9 @@ Customer_Segmentation/
 │   ├── 05_clusters_income_vs_spending.png
 │   ├── 06_clusters_age_vs_spending.png
 │   └── 07_silhouette_scores.png
+├── .gitignore
 ├── README.md
-├── requirements.txt
-└── .gitignore
+└── requirements.txt
 ```
 
 ## Project Workflow
@@ -129,9 +129,24 @@ In the income vs spending chart, four clusters sit in clear corners while Cluste
 ## How to Run
 
 ```bash
-git clone <your-repo-url>
-cd Customer_Segmentation
+# Clone the repository
+git clone https://github.com/PurushothamanS712/Customer-Segmentation-Using-KMeans.git
+
+# Navigate into the project directory
+cd Customer-Segmentation-Using-KMeans
+
+# (Optional) Create and activate a virtual environment
+# Windows:
+python -m venv .venv
+.venv\Scripts\activate
+# macOS/Linux:
+python3 -m venv .venv
+source .venv/bin/activate
+
+# Install required dependencies
 pip install -r requirements.txt
+
+# Navigate to notebooks and launch Jupyter
 cd notebooks
 jupyter notebook
 ```
