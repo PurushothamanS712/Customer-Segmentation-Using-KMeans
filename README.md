@@ -129,24 +129,9 @@ In the income vs spending chart, four clusters sit in clear corners while Cluste
 ## How to Run
 
 ```bash
-# Clone the repository
 git clone https://github.com/PurushothamanS712/Customer-Segmentation-Using-KMeans.git
-
-# Navigate into the project directory
 cd Customer-Segmentation-Using-KMeans
-
-# (Optional) Create and activate a virtual environment
-# Windows:
-python -m venv .venv
-.venv\Scripts\activate
-# macOS/Linux:
-python3 -m venv .venv
-source .venv/bin/activate
-
-# Install required dependencies
 pip install -r requirements.txt
-
-# Navigate to notebooks and launch Jupyter
 cd notebooks
 jupyter notebook
 ```
